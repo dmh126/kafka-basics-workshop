@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/damian/workspace/contecht/boilerplates/scala/kafka-streams/src/main/scala/example/KafkaStreamsApp.scala:32:21: type application is not allowed in pattern[0m
+[0m[[0m[31merror[0m] [0m[0m  val projectsTable KTable[DeviceId, Project] builder.table("test_topic")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/damian/workspace/contecht/boilerplates/scala/kafka-streams/src/main/scala/example/KafkaStreamsApp.scala:33:1: '=' expected.[0m
+[0m[[0m[31merror[0m] [0m[0m  val metricsStream: KStream[DeviceId, Measurement] = builder.stream[DeviceId, Measurement](TopicMeasurements).filter((_, measurement) => {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

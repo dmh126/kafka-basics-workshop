@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/damian/workspace/contecht/boilerplates/scala/kafka-streams/src/main/scala/example/KafkaStreamsApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(example.KafkaSetup, example.KafkaSetup.User, example.KafkaStreamsApp, example.KafkaSetup.Project, example.KafkaSetup.Measurement)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/damian/workspace/contecht/boilerplates/scala/kafka-streams/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 70adbae1 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes:/Users/damian/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/damian/workspace/contecht/boilerplates/scala/kafka-streams/target/scala-2.12/classes:/Users/damian/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar:/Users/damian/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-2.8.0.jar:/Users/damian/.ivy2/cache/com.github.luben/zstd-jni/jars/zstd-jni-1.4.9-1.jar:/Users/damian/.ivy2/cache/org.lz4/lz4-java/jars/lz4-java-1.7.1.jar:/Users/damian/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.8.1.jar:/Users/damian/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.30.jar:/Users/damian/.ivy2/cache/org.apache.kafka/kafka-streams/jars/kafka-streams-2.8.0.jar:/Users/damian/.ivy2/cache/org.apache.kafka/connect-json/jars/connect-json-2.8.0.jar:/Users/damian/.ivy2/cache/org.apache.kafka/connect-api/jars/connect-api-2.8.0.jar:/Users/damian/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.10.5.1.jar:/Users/damian/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.10.5.jar:/Users/damian/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.10.5.jar:/Users/damian/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.10.5.jar:/Users/damian/.ivy2/cache/org.rocksdb/rocksdbjni/jars/rocksdbjni-5.18.4.jar:/Users/damian/.ivy2/cache/org.apache.kafka/kafka-streams-scala_2.12/jars/kafka-streams-scala_2.12-2.8.0.jar:/Users/damian/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/jars/scala-collection-compat_2.12-2.3.0.jar:/Users/damian/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.14.1.jar:/Users/damian/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.14.1.jar:/Users/damian/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-2.6.1.jar:/Users/damian/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-2.6.1.jar:/Users/damian/.ivy2/cache/org.typelevel/simulacrum-scalafix-annotations_2.12/jars/simulacrum-scalafix-annotations_2.12-0.5.4.jar:/Users/damian/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.14.1.jar:/Users/damian/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.7.jar:/Users/damian/.ivy2/cache/io.circe/circe-parser_2.12/jars/circe-parser_2.12-0.14.1.jar:/Users/damian/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.14.1.jar:/Users/damian/.ivy2/cache/org.typelevel/jawn-parser_2.12/jars/jawn-parser_2.12-1.1.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 7.036300452 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

@@ -1,0 +1,24 @@
+{
+  "name": "kafka-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "producer": "npx ts-node ./src/producer.ts",
+    "consumer": "npx ts-node ./src/consumer.ts",
+    "producer:schema": "npx ts-node ./src/producer-schema.ts",
+    "consumer:schema": "npx ts-node ./src/consumer-schema.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.3.0",
+    "kafkajs": "^2.2.3"
+  }
+}
