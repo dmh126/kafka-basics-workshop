@@ -1,3 +1,4 @@
 javascript/src/config.json
 javascript/node_modules/
 .metals
+.DS_Store
